@@ -1,0 +1,23 @@
+{
+  "name": "payqris-webhook",
+  "version": "1.0.0",
+  "description": "Server penerima webhook open-source untuk PayQRIS. Siap deploy ke Vercel atau dijalankan mandiri di Node.js/VPS.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "payqris",
+    "webhook",
+    "qris",
+    "payment-gateway",
+    "vercel"
+  ],
+  "author": "PayQRIS Community",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
